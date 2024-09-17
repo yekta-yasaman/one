@@ -1,0 +1,82 @@
+ *{
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box; }
+:root{
+    --fontfamily:Iranyekan;
+}
+
+
+.wrapper{
+    width: 100%;
+}
+@font-face {
+  font-family: Number;
+  src: url(../../public/fonts/B-NAZANIN.TTF);
+}
+ @font-face {  font-family: Iranyekan;
+    src: url(../../fonts/IRANYekanWeb.woff2);
+    src:url(../../fonts/IRANYekanWeb.eot);
+    src: url(../../fonts/IRANYekanWeb.woff);
+    src: url(../../fonts/IRANYekanWeb.ttf)
+
+ }
+ .swiper-button-prev,
+  .swiper-rtl .swiper-button-next{
+    width: 40px !important;
+    height: 40px !important ;
+    background-color:#FFFFFF;
+    border-radius: 50% ;
+    border: 1px solid lightgrey;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after
+{
+    
+    content:"" !important ;
+    /* داخل کانتنت را خالی می کنیم تا انچیزی که در دیفالت است خالی شود و با اسوییجی پر میکنیم */
+ }
+ .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after{
+ 
+   content:"" !important ;
+ }
+ .swiper-button-prev:hover, .swiper-rtl .swiper-button-next:hover{
+    svg{
+        g{
+            fill: black;
+        }
+    }
+ }
+ .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
+   opacity: 0 !important;
+ }
+ /* برای هاور داخل اس ویجی یک جی قرار دارد که فیل ان را عوض می کنیم */
+ /* وقتی در ابتدا و انتها علامت نمایان نمیشود اپیستی صفر می دهیم */
+ .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  background-color: black;
+  width: 4px;
+  height: 4px;
+  transition: 400ms;
+ }
+.swiper-pagination-bullet-active{
+  width: 15px !important;
+  height: 6px !important;
+  background-color: whitesmoke !important;
+border-radius: 5px !important;
+
+}
+/* برای پجیکیشن یک کلاس اکتیو داریک که به ان سی اس ساس میدیم و به قبلی ترنزیشن  */
+popo1{
+  position: absolute;
+right: 100px;
+bottom: 50px;
+z-index: 3;
+}

@@ -1,0 +1,71 @@
+.buy{
+    margin: 16px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    ;
+ 
+    .buy_center{
+    width: 80%;
+    height: 450px;
+    display: flex;
+    justify-content:center;
+    flex-flow: column wrap;
+   .buy_titr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    h3{
+        font-family: var(--fontfamily);
+        font-weight: 500;
+        font-size: 36px;
+        /* margin-bottom: 36px; */
+        text-align: center;
+
+    }
+   }
+    .buy_center_all{
+            cursor: pointer;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        row-gap: 10px;
+        align-items: center;
+        column-gap: 8px;
+        row-gap: 20px;
+        columns: 8 ;
+        .buy_center_part{
+            width: 120px;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+        img{
+            
+            width: 100px;
+            height: 100px;
+
+        }
+        p{
+            font-family: var(--fontfamily);
+            font-size: 14px;
+            font-weight: 200;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+    }
+
+}
+}

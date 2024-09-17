@@ -1,0 +1,120 @@
+.super-amazing{
+    width: 98.5%;
+    height: 110px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-flow:row wrap; */
+    align-items: center;
+    background-color: #ECEFEE;
+    margin: 20px auto;
+    padding: 16px 40px 12px 40px;
+   
+    background-image: url('./images/superamazing/a1.png');
+    background-attachment: fixed;
+    background-position:  left;
+    background-repeat: no-repeat;
+
+   
+    .super-amazing-right{
+        width: 470px;
+        height: 62px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row nowrap ;
+        am1{
+            width: 66px;
+            height: 62px;
+        }
+        am2{
+            width: 528px;
+            height: 28px;
+
+        }
+        .click1{
+            background-color: #029A49;
+            width: 107px;
+            height: 30;
+            color: whitesmoke;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p{
+                text-align: center;
+                line-height: 30px;
+                font-size: 12px;
+                /* font-weight: bold; */
+                font-family: var(--fontfamily);
+                span{
+                    font-family: Number ;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+        .super-amazing-left{
+            width: 700px;
+            height: 75px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .super-amazing-left-off{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items:center ;
+                img{
+                  
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                }
+                .left-off{
+                    width: 33px;
+                    height: 20px;
+                    border-radius: 10px;
+                    background-color: crimson;
+                    position: absolute;
+                    bottom: 0 ;
+                    right: 0;
+                    color: whitesmoke;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    span{
+                        text-align: center;
+                        font-family: Number ;
+                        font-size: 15px;  
+                    }
+                }
+            }
+        }
+        .superamazing-click{
+            width: 145px;
+            height: 45px;
+            border-radius: 20px;
+            background-color: white;
+            color: #029A49;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+            column-gap: 20px;
+
+            h4{
+                font-family: var(--fontfamily);
+                font-size: 15px;
+                span{
+                    font-family: Number;
+                    font-size: 17px;
+                    margin: 3px;
+                }
+            }
+        }
+    }

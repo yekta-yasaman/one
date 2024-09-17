@@ -1,0 +1,55 @@
+.under-slider{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+
+    .under-slider-center{
+        width: 100%;
+        height: inherit;
+        padding: 30px 40px;
+        display: flex;
+        justify-content: space-between;
+        /* column-gap: 80px; */
+        /* 
+        یا اسپیس بتوین مکیذاری میاد وسط یا کالمن گپ و تنظییم دستی  */
+        div{
+            /* چند خطی بعدا بخاطر فیت کانتنت نمیشه */
+            width: fit-content;
+            display: flex;
+            align-items: center ;
+            justify-content: center ;
+            flex-flow: column wrap;
+            /* زیر هم بیاد کالمن رپ  */
+            row-gap: 10px;
+            img{
+                width: 52px ;
+                height: 52px ;
+            }
+            p{
+                font-size: 12px;
+               font-family: var(--fontfamily);
+            }
+            .more{
+                
+                width: 52px;
+                height: 52px;
+                border-radius: 50%;
+                background-color: #F0F0F1;
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                text-align: center !important;
+                 padding-left: 8px;
+                 padding-top: 8px; 
+                
+                }
+            }
+            
+        }
+      
+    }
+   
+  
+    
+

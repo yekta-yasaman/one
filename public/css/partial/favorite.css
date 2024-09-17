@@ -1,0 +1,117 @@
+.favorite{
+    width: 99.7%;
+    height: 402px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:0 35px 0 35px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 20px;
+    flex-flow: row wrap;
+    position: relative;
+    a{
+      text-decoration: none;
+      color: #007aff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: 15px;
+      margin-top: 15px;
+      p{
+        font-size: 1 rem;
+      font-family: var(--fontfamily)
+      ;
+      }
+
+    }
+    /* align-items: stretch; */
+    .favorite_top{
+      width: 100%;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      p{
+        font-size: 2rem;
+        font-family: var(--fontfamily)
+        ;
+        font-weight: 500;
+        text-align: center;
+        line-height: 2rem;
+        margin-right: 8px;
+      }
+  
+
+    }
+    .favorite-center{
+        width: 95%;
+        /* height: inherit;این رو پاک کن الاین ایتم استرچ بده */
+        height: 330px;
+    
+       
+    
+        .swiper {
+            width: 100%;
+            height: 100%;
+            
+          }
+      
+          .swiper-slide {
+            border-radius: 15px;
+            /* باید به دیو داخلی و پدر حتما باید بردر ردیوس بدهی وگرنه گوشه هارا نمی گیرد */
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 10px !important;
+            .fovorite-swiper-slide{
+              height: 100%;
+              width: 100%;
+           
+              .fovorite-swiper-slide-item{
+                padding: 10px;
+                display: flex;
+                flex-flow:row nowrap;
+                align-items: center;
+                justify-content: center;
+                column-gap: 7px;
+               padding-bottom: 20px;
+                img{
+                  width: 86px ;
+                  height: 86px ;
+                }
+               span{
+                /* font-weight: bolder; */
+                font-size: 32px;
+                font-family: Number;
+                color: aqua;
+                font-weight: 600;
+               }
+               p{
+                /* width: 60%; */
+              
+                font-family: var(--fontfamily);
+                font-size: 14px;
+                font-weight: 400;
+                opacity: 0.8;
+                height: 50px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2 !important;
+                text-align: right;
+                /* padding-bottom: 20px; */
+                /* border-bottom: 1px solid rgb(218, 218, 218); */
+               }
+              }
+            }
+          }
+        
+        }
+    
+}

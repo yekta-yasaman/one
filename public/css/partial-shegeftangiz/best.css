@@ -1,0 +1,236 @@
+.best{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EF3C51;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .best_center{
+        width: 100%;
+        height:390px;
+        .swiper {
+            width: 100%;
+            height: 100%;
+          }
+      
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+           border-radius: 8px;
+            .inner{
+                background-color: #EF3C51;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                height: inherit;
+                width: 100%;
+           border-radius: 8px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                    display: block;
+                }
+            }
+            .svg{
+                width: 100%;
+                display: flex
+                ;
+                height: 20px;
+                justify-content: flex-start;
+                align-items: center;
+                padding-right: 10px;
+                padding-top: 5px;
+            }
+            .pic{
+               width: 100%;
+margin-top: 15px;
+               height: 150px;
+
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               img{
+                width: 150px;
+                height: 150px;
+               }
+            }
+            .comment{
+                width: 100%;
+                display: flex;
+                justify-content:flex-start ;
+                align-items: center;
+                height: 80px;
+                padding-right: 7px;
+                padding-right: 7px;
+                p{
+                 font-size: 12px;
+                 font-weight: 600;
+                    line-height: 26px;
+                font-family: var(--fontfamily);
+                display: -webkit-box;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2 ;
+                text-align: right;}
+            }
+            .send{
+                width: 100%;
+                height: 20px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding-right: 12px;
+
+                p{
+                 padding-right: 5px;
+                 font-size: 11px;
+                 font-family: var( --fontfamily);   
+                 font-weight: 500;
+                 opacity: 0.7;
+                 align-items: center;
+                 text-align: right;
+
+                }
+            }
+            .price{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                padding-left:8px;
+                padding-right: 7px;
+                height: 40px;
+            .darsad{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    width: 50%;
+                    height: inherit;
+                    p{
+                        font-family: Number;
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height:17px ;
+                        width: 26px;
+                        border-radius: 7px;
+                        height: 17px;
+                        color: #fff;
+                        background-color: #EF3C51;
+                    }
+                    
+                }
+                .new-price{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    width: 50%;
+                    height: 40px;
+
+                    p{
+                        font-family: Number;
+                        font-size: 16px;
+                        font-weight: bold;
+                        line-height: 40px;
+
+                    }
+
+                }
+              
+            }
+            .old{
+                display: flex;
+                height: 20px;
+                justify-content: flex-end;
+                align-items: start;
+                padding-left: 25px;
+                p{
+                    font-family: Number;
+                    font-size: 15px;
+                    font-weight: 400;
+                    text-align: end;
+                    text-decoration: line-through;
+                    opacity: 0.6;
+                    
+                }
+
+            }
+            .chart{
+                display: flex;
+                width: 100%;
+                height: 10px;
+                align-items: center
+                ;
+                justify-content: center;
+                .one{
+                    background-color: rgb(207, 203, 203);
+                    width: 90%;
+                    height: 5px;
+                    border-radius: 2px;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    .two{
+                        background-color: #EF3C51;
+                        height: inherit;
+                        width: 67%;
+                        border-radius: 2px;
+                    }
+                }
+            }
+            .clock{
+                display: flex;
+                width: 100%;
+                height: 35px;
+                justify-content: space-around;
+                padding-right: 7px;
+                padding-left: 7px;
+                .right{
+                    width: 50%;
+                    height: inherit;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .darsad{
+                        font-family: Number;
+                        font-size: 12px;
+                        color: #EF3C51;
+                        font-weight: 500;
+                        padding-right: 5px;
+
+                    }
+                    .sell{
+                        font-family: var(--fontfamily);
+                        font-size: 10px;
+                        font-weight: 500;
+                        opacity: 0.7;
+
+                    }
+                }
+                .left{
+                    color: #EF3C51;
+                    font-family: Number;
+                    font-size: 17px;
+                    font-weight: bold;
+                    line-height: 35px;
+                }
+                
+
+
+
+            }
+          }
+      
+          
+
+    }
+}

@@ -1,0 +1,70 @@
+.club{
+    width: 99.7%;
+    height: 90px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(76.02deg,#35a6c8 33.32%,#007295 71.55%),radial-gradient(21.29% 87.33% at 50% 50.67%,#7cf2f6 0,#35a6c8 100%);
+    /* برای یک گراند گرذینت باید از ایمج استفاده کنی نه کالر */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 12px 16px 12px 16px;
+    .club_right{
+        width: 120px;
+        height: 33px;
+        margin-right: 24px;
+    }
+    .club_left{
+        width: 820px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        flex-flow: row nowrap;
+        .one{
+            border-radius: 0 10px 10px 0;
+            
+        }
+        .-last{
+            border-radius: 10px 0 0 10px !important;
+        }
+        div{
+            width: 270px;
+            height: 64px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white;
+            
+            span{
+                width: 100px;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-family: var(--fontfamily);
+                    font-size: 12px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+            div{
+                width: 170px;
+                height: inherit;
+                border-radius: 10px 0 0 10px !important;
+                img{
+                    width: 169px;
+                    height: inherit;
+                    border-radius: 10px 0 0 10px !important;
+                }
+            }
+
+        }
+    }
+
+
+}
